@@ -302,6 +302,6 @@ layers:
   - {t: ▽, type: trans}
   - BT CLR ALL
 combos:
-- p: [37, 40]
+- p: [36, 39]
   k: LANG1
   l: [default_layer_win, default_layer_mac]

@@ -315,10 +315,10 @@ path.combo {
 </text>
 </g>
 <g class="combo combopos-0">
-<path d="M364,196 l-93,0" class="combo"/>
-<path d="M364,196 l93,0" class="combo"/>
-<rect rx="6" ry="6" x="350" y="183" width="28" height="26" class="combo"/>
-<text x="364" y="196" class="combo tap">LANG1</text>
+<path d="M308,196 l-93,0" class="combo"/>
+<path d="M308,196 l93,0" class="combo"/>
+<rect rx="6" ry="6" x="294" y="183" width="28" height="26" class="combo"/>
+<text x="308" y="196" class="combo tap">LANG1</text>
 </g>
 </g>
 </g>
@@ -513,10 +513,10 @@ path.combo {
 </text>
 </g>
 <g class="combo combopos-0">
-<path d="M364,196 l-93,0" class="combo"/>
-<path d="M364,196 l93,0" class="combo"/>
-<rect rx="6" ry="6" x="350" y="183" width="28" height="26" class="combo"/>
-<text x="364" y="196" class="combo tap">LANG1</text>
+<path d="M308,196 l-93,0" class="combo"/>
+<path d="M308,196 l93,0" class="combo"/>
+<rect rx="6" ry="6" x="294" y="183" width="28" height="26" class="combo"/>
+<text x="308" y="196" class="combo tap">LANG1</text>
 </g>
 </g>
 </g>
