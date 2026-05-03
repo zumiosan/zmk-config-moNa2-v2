@@ -113,7 +113,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '['
-  - {t: ▽, type: trans}
+  - '&mkp MB2'
   - '&mkp MB5'
   - ']'
   - Ctl+LEFT ARROW
