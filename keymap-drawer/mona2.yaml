@@ -56,7 +56,7 @@ layers:
   - P
   - A
   - S
-  - {t: D, h: SCROLL}
+  - D
   - F
   - G
   - ;
@@ -102,7 +102,7 @@ layers:
   - Sft+DOWN
   - Sft+RIGHT
   - '{'
-  - '&mkp MB5'
+  - '&mkp MB4'
   - '}'
   - LEFT ARROW
   - DOWN ARROW
@@ -114,7 +114,7 @@ layers:
   - {t: ▽, type: trans}
   - '['
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB5'
   - ']'
   - Ctl+LEFT ARROW
   - Ctl+UP ARROW
