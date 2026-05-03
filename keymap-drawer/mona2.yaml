@@ -102,12 +102,12 @@ layers:
   - Sft+DOWN
   - Sft+RIGHT
   - '{'
+  - '&mkp MB5'
   - '}'
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
   - HOME
-  - {t: ▽, type: trans}
   - CAPSLOCK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -190,10 +190,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '&mkp MB1'
   - {t: ▽, type: trans}
   - '&mkp MB2'
+  - '&tog_off 4'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -214,7 +214,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&tog_off 4'
+  - {t: ▽, type: trans}
   SCROLL:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -274,7 +274,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+Ctl+Q
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
