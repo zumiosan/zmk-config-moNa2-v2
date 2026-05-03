@@ -49,7 +49,7 @@
 
         change-lang1 {
             bindings = <&kp LANG1>;
-            key-positions = <37 40>;
+            key-positions = <36 39>;
             layers = <1 0>;
         };
     };
