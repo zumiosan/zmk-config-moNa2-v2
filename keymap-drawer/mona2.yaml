@@ -43,6 +43,49 @@ layers:
   - BACKSPACE
   - {t: RETURN, h: bluetooth_fn}
   - Gui+RSHFT
+  default_layer_jis:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - A
+  - S
+  - D
+  - F
+  - G
+  - ;
+  - H
+  - J
+  - {t: K, h: SCROLL}
+  - L
+  - '-'
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - '&mkp MB1'
+  - '='
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - LEFT SHIFT
+  - LEFT ALT
+  - LEFT CONTROL
+  - '&lang_change_tap_dance'
+  - {t: SPACE, h: ARROW}
+  - {t: TAB, h: symbols_jis}
+  - BACKSPACE
+  - {t: RETURN, h: bluetooth_fn}
+  - Gui+RSHFT
   ARROW:
   - ESCAPE
   - {t: ▽, type: trans}
@@ -150,7 +193,7 @@ layers:
   - '&mkp MB1'
   - {t: ▽, type: trans}
   - '&mkp MB2'
-  - '&tog_off 3'
+  - '&tog_off 4'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -162,7 +205,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&tog_on 3'
+  - '&tog_on 4'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -216,8 +259,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   bluetooth_fn:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: default, h: toggle}
+  - {t: default_layer_jis, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -258,7 +301,50 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - BT CLR ALL
+  symbols_jis:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - '!'
+  - '['
+  - '#'
+  - $
+  - '%'
+  - {t: ▽, type: trans}
+  - '='
+  - ^
+  - '"'
+  - Sft+0x87
+  - ':'
+  - +
+  - '`'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''''
+  - ;
+  - '@'
+  - '&'
+  - Sft+0x89
+  - Sft+LEFT GUI
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '0x89'
 combos:
 - p: [36, 39]
   k: LANG1
-  l: [default]
+  l: [default, default_layer_jis]
