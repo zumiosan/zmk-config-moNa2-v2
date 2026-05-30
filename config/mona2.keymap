@@ -117,10 +117,10 @@
 
         default_layer {
             bindings = <
-&kp Q           &kp W         &kp E             &kp R                   &kp T                                    &kp Y         &kp U  &kp I      &kp O    &kp P
-&kp A           &kp S         &kp D             &kp F                   &kp G                     &kp SEMICOLON  &kp H         &kp J  &lt SCROLL_LAYER K    &kp L    &kp MINUS
-&kp Z           &kp X         &kp C             &kp V                   &kp B        &mkp MB1     &kp EQUAL      &kp N         &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_CONTROL  &lang_change_tap_dance  &lt ARROW_LAYER SPACE  &lt SYMBOL_LAYER TAB    &kp BACKSPACE  &lt BLUETOOTH_LAYER RETURN                             &kp RG(RSHFT)
+&kp Q           &kp W         &kp E             &kp R               &kp T                                                           &kp Y          &kp U  &kp I               &kp O    &kp P
+&kp A           &kp S         &kp D             &kp F               &kp G                                            &kp SEMICOLON  &kp H          &kp J  &lt SCROLL_LAYER K  &kp L    &kp MINUS
+&kp Z           &kp X         &kp C             &kp V               &kp B                  &mkp MB1                  &kp EQUAL      &kp N          &kp M  &kp COMMA           &kp DOT  &kp SLASH
+&kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_CONTROL  &mt LEFT_GUI LANG2  &lt ARROW_LAYER LANG1  &lt SYMBOL_LAYER SPACE    &lt 6 RETURN   &kp BACKSPACE                                      &kp RG(RSHFT)
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -128,10 +128,10 @@
 
         default_layer_jis {
             bindings = <
-&kp Q           &kp W         &kp E             &kp R                   &kp T                                    &kp Y         &kp U  &kp I      &kp O    &kp P
-&kp A           &kp S         &kp D             &kp F                   &kp G                     &kp SEMICOLON  &kp H         &kp J  &lt SCROLL_LAYER K    &kp L    &kp MINUS
-&kp Z           &kp X         &kp C             &kp V                   &kp B        &mkp MB1     &kp EQUAL      &kp N         &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_CONTROL  &lang_change_tap_dance  &lt ARROW_LAYER SPACE  &lt SYMBOL_JIS_LAYER TAB    &kp BACKSPACE  &lt BLUETOOTH_LAYER RETURN                             &kp RG(RSHFT)
+&kp Q           &kp W         &kp E             &kp R               &kp T                                                               &kp Y          &kp U  &kp I               &kp O    &kp P
+&kp A           &kp S         &kp D             &kp F               &kp G                                                &kp SEMICOLON  &kp H          &kp J  &lt SCROLL_LAYER K  &kp L    &kp MINUS
+&kp Z           &kp X         &kp C             &kp V               &kp B                  &mkp MB1                      &kp EQUAL      &kp N          &kp M  &kp COMMA           &kp DOT  &kp SLASH
+&kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_CONTROL  &mt LEFT_GUI LANG2  &lt ARROW_LAYER LANG1  &lt SYMBOL_JIS_LAYER SPACE    &lt 6 RETURN   &kp BACKSPACE                                      &kp RG(RSHFT)
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -140,7 +140,7 @@
         ARROW {
             bindings = <
 &kp ESCAPE        &trans        &kp LS(UP_ARROW)  &trans         &kp LEFT_PARENTHESIS                             &kp RIGHT_PARENTHESIS  &kp LC(A)           &kp UP_ARROW      &kp LC(E)            &kp END
-&trans            &kp LS(LEFT)  &kp LS(DOWN)      &kp LS(RIGHT)  &kp LEFT_BRACE                    &mkp MB4       &kp RIGHT_BRACE        &kp LEFT_ARROW      &kp DOWN_ARROW    &kp RIGHT_ARROW      &kp HOME
+&kp TAB           &kp LS(LEFT)  &kp LS(DOWN)      &kp LS(RIGHT)  &kp LEFT_BRACE                    &mkp MB4       &kp RIGHT_BRACE        &kp LEFT_ARROW      &kp DOWN_ARROW    &kp RIGHT_ARROW      &kp HOME
 &trans            &trans        &trans            &trans         &kp LEFT_BRACKET      &mkp MB2    &mkp MB5       &kp RIGHT_BRACKET      &kp LC(LEFT_ARROW)  &kp LC(UP_ARROW)  &kp LC(RIGHT_ARROW)  &trans
 &kp LS(LEFT_GUI)  &trans        &trans            &trans         &trans                &trans      &kp LG(MINUS)  &kp LG(PLUS)                                                                      &trans
             >;
@@ -181,10 +181,10 @@
 
         bluetooth_fn {
             bindings = <
-&to DEFAULT_LAYER  &to JIS_LAYER  &trans  &trans  &trans                         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&kp F1   &kp F2   &kp F3  &kp F4  &kp F5            &trans       &kp F6        &kp F7        &kp F8        &kp F9        &kp F10
-&kp F11  &kp F12  &trans  &trans  &trans  &trans    &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
-&trans   &trans   &trans  &trans  &trans  &trans    &trans       &trans                                                  &bt BT_CLR_ALL
+&to DEFAULT_LAYER  &to JIS_LAYER  &trans  &trans  &trans                      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+&kp F1             &kp F2         &kp F3  &kp F4  &kp F5             &trans   &kp F6        &kp F7        &kp F8        &kp F9        &kp F10
+&trans             &trans         &trans  &trans  &trans  &kp F11    &kp F12  &trans        &trans        &trans        &trans        &bt BT_CLR
+&bootloader        &trans         &trans  &trans  &trans  &trans     &trans   &trans                                                  &bt BT_CLR_ALL
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -192,10 +192,10 @@
 
         symbols_jis {
             bindings = <
-&kp N1            &kp N2         &kp N3    &kp N4      &kp N5                            &kp N6     &kp N7       &kp N8              &kp N9             &kp N0
-&kp EXCLAMATION   &kp LEFT_BRACKET  &kp HASH  &kp DOLLAR  &kp PERCENT            &trans  &kp EQUAL         &kp CARET         &kp DOUBLE_QUOTES  &kp LS(INT1)      &kp COLON
-&kp PLUS          &kp GRAVE         &trans    &trans      &trans       &trans    &trans  &kp SINGLE_QUOTE  &kp SEMICOLON     &kp AT_SIGN        &kp AMPERSAND     &kp LS(INT3)
-&kp LS(LEFT_GUI)  &trans            &trans    &trans      &trans       &trans    &trans  &trans                                                            &kp INT3
+&kp N1            &kp N2            &kp N3    &kp N4      &kp N5                         &kp N6            &kp N7         &kp N8             &kp N9         &kp N0
+&kp EXCLAMATION   &kp LEFT_BRACKET  &kp HASH  &kp DOLLAR  &kp PERCENT            &trans  &kp EQUAL         &kp CARET      &kp DOUBLE_QUOTES  &kp LS(INT1)   &kp COLON
+&kp PLUS          &kp GRAVE         &trans    &trans      &trans       &trans    &trans  &kp SINGLE_QUOTE  &kp SEMICOLON  &kp AT_SIGN        &kp AMPERSAND  &kp LS(INT3)
+&kp LS(LEFT_GUI)  &trans            &trans    &trans      &trans       &trans    &trans  &trans                                                             &kp INT3
             >;
         };
     };
