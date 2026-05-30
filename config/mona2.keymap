@@ -117,10 +117,10 @@
 
         default_layer {
             bindings = <
-&kp Q           &kp W         &kp E             &kp R               &kp T                                                           &kp Y          &kp U  &kp I               &kp O    &kp P
-&kp A           &kp S         &kp D             &kp F               &kp G                                            &kp SEMICOLON  &kp H          &kp J  &lt SCROLL_LAYER K  &kp L    &kp MINUS
-&kp Z           &kp X         &kp C             &kp V               &kp B                  &mkp MB1                  &kp EQUAL      &kp N          &kp M  &kp COMMA           &kp DOT  &kp SLASH
-&kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_CONTROL  &mt LEFT_GUI LANG2  &lt ARROW_LAYER LANG1  &lt SYMBOL_LAYER SPACE    &lt 6 RETURN   &kp BACKSPACE                                      &kp RG(RSHFT)
+&kp Q           &kp W         &kp E             &kp R               &kp T                                                           &kp Y         &kp U  &kp I               &kp O    &kp P
+&kp A           &kp S         &kp D             &kp F               &kp G                                            &kp SEMICOLON  &kp H         &kp J  &lt SCROLL_LAYER K  &kp L    &kp MINUS
+&kp Z           &kp X         &kp C             &kp V               &kp B                  &mkp MB1                  &kp EQUAL      &kp N         &kp M  &kp COMMA           &kp DOT  &kp SLASH
+&kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_CONTROL  &mt LEFT_GUI LANG2  &lt ARROW_LAYER SPACE  &lt SYMBOL_LAYER LANG1    &kp BACKSPACE  &lt 6 RETURN                                      &kp RG(RSHFT)
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -128,10 +128,10 @@
 
         default_layer_jis {
             bindings = <
-&kp Q           &kp W         &kp E             &kp R               &kp T                                                               &kp Y          &kp U  &kp I               &kp O    &kp P
-&kp A           &kp S         &kp D             &kp F               &kp G                                                &kp SEMICOLON  &kp H          &kp J  &lt SCROLL_LAYER K  &kp L    &kp MINUS
-&kp Z           &kp X         &kp C             &kp V               &kp B                  &mkp MB1                      &kp EQUAL      &kp N          &kp M  &kp COMMA           &kp DOT  &kp SLASH
-&kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_CONTROL  &mt LEFT_GUI LANG2  &lt ARROW_LAYER LANG1  &lt SYMBOL_JIS_LAYER SPACE    &lt 6 RETURN   &kp BACKSPACE                                      &kp RG(RSHFT)
+&kp Q           &kp W         &kp E             &kp R               &kp T                                                               &kp Y         &kp U  &kp I               &kp O    &kp P
+&kp A           &kp S         &kp D             &kp F               &kp G                                                &kp SEMICOLON  &kp H         &kp J  &lt SCROLL_LAYER K  &kp L    &kp MINUS
+&kp Z           &kp X         &kp C             &kp V               &kp B                  &mkp MB1                      &kp EQUAL      &kp N         &kp M  &kp COMMA           &kp DOT  &kp SLASH
+&kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_CONTROL  &mt LEFT_GUI LANG2  &lt ARROW_LAYER SPACE  &lt SYMBOL_JIS_LAYER LANG1    &kp BACKSPACE  &lt 6 RETURN                                      &kp RG(RSHFT)
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
