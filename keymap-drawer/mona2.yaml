@@ -344,7 +344,3 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - INT3
-combos:
-- p: [36, 39]
-  k: LANG1
-  l: [default, default_layer_jis]
