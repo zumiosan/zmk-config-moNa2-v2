@@ -38,10 +38,10 @@ layers:
   - LEFT ALT
   - LEFT CONTROL
   - {t: LANG2, h: LEFT GUI}
-  - {t: LANG1, h: ARROW}
-  - {t: SPACE, h: symbols}
-  - {t: RETURN, h: bluetooth_fn}
+  - {t: SPACE, h: ARROW}
+  - {t: LANG1, h: symbols}
   - BACKSPACE
+  - {t: RETURN, h: bluetooth_fn}
   - Gui+RSHFT
   default_layer_jis:
   - Q
@@ -81,10 +81,10 @@ layers:
   - LEFT ALT
   - LEFT CONTROL
   - {t: LANG2, h: LEFT GUI}
-  - {t: LANG1, h: ARROW}
-  - {t: SPACE, h: symbols_jis}
-  - {t: RETURN, h: bluetooth_fn}
+  - {t: SPACE, h: ARROW}
+  - {t: LANG1, h: symbols_jis}
   - BACKSPACE
+  - {t: RETURN, h: bluetooth_fn}
   - Gui+RSHFT
   ARROW:
   - ESCAPE
@@ -298,8 +298,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - BT CLR ALL
   symbols_jis:
   - '1'
