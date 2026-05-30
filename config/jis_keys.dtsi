@@ -9,10 +9,10 @@
 
 #pragma once
 
-#define JP_DQUOTE       AT                /* " */
+#define JP_DQUOTE       AT_SIGN           /* " */
 #define JP_AMPERSAND    CARET             /* & */
 #define JP_QUOTE        AMPERSAND         /* ' */
-#define JP_EQUAL        UNDER             /* = */
+#define JP_EQUAL        UNDERSCORE        /* = */
 #define JP_CARET        EQUAL             /* ^ */
 #define JP_YEN          0x89              /* JIS Yen */
 #define JP_PLUS         COLON             /* + */
