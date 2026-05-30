@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: mona2}
 layers:
-  default_layer_mac:
+  default:
   - Q
   - W
   - E
@@ -26,7 +26,7 @@ layers:
   - X
   - C
   - V
-  - {t: B, h: bluetooth}
+  - B
   - '&mkp MB1'
   - '='
   - N
@@ -37,55 +37,12 @@ layers:
   - LEFT SHIFT
   - LEFT ALT
   - LEFT CONTROL
-  - {t: LANG2, h: LEFT GUI}
-  - {t: SPACE, h: symbols}
-  - {t: TAB, h: ARROW}
+  - '&lang_change_tap_dance'
+  - {t: SPACE, h: ARROW}
+  - {t: TAB, h: symbols}
   - BACKSPACE
-  - RETURN
+  - {t: RETURN, h: bluetooth_fn}
   - Gui+RSHFT
-  default_layer_win:
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - A
-  - S
-  - D
-  - F
-  - G
-  - ;
-  - H
-  - J
-  - {t: K, h: SCROLL}
-  - L
-  - '-'
-  - Z
-  - X
-  - C
-  - V
-  - {t: B, h: bluetooth}
-  - '&mkp MB1'
-  - '='
-  - N
-  - M
-  - ','
-  - .
-  - /
-  - LEFT SHIFT
-  - LEFT ALT
-  - LEFT GUI
-  - {t: LANG2, h: LEFT CONTROL}
-  - {t: SPACE, h: symbols}
-  - {t: TAB, h: ARROW}
-  - BACKSPACE
-  - RETURN
-  - Ctl+RSHFT
   ARROW:
   - ESCAPE
   - {t: ▽, type: trans}
@@ -108,7 +65,7 @@ layers:
   - DOWN ARROW
   - RIGHT ARROW
   - HOME
-  - CAPSLOCK
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -120,12 +77,12 @@ layers:
   - Ctl+UP ARROW
   - Ctl+RIGHT ARROW
   - {t: ▽, type: trans}
-  - {t: default_layer_win, h: toggle}
-  - {t: ▽, type: trans}
+  - Sft+LEFT GUI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - Gui+-
   - Gui++
   - {t: ▽, type: trans}
@@ -163,12 +120,12 @@ layers:
   - '"'
   - ''''
   - '|'
-  - LANG1
+  - Sft+LEFT GUI
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - \
@@ -193,7 +150,7 @@ layers:
   - '&mkp MB1'
   - {t: ▽, type: trans}
   - '&mkp MB2'
-  - '&tog_off 4'
+  - '&tog_off 3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -205,7 +162,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&tog_on 4'
+  - '&tog_on 3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -258,7 +215,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  bluetooth:
+  bluetooth_fn:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -269,22 +226,22 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - {t: ▽, type: trans}
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
   - '&bootloader'
   - {t: ▽, type: trans}
@@ -299,9 +256,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - BT CLR ALL
 combos:
 - p: [36, 39]
   k: LANG1
-  l: [default_layer_win, default_layer_mac]
+  l: [default]
