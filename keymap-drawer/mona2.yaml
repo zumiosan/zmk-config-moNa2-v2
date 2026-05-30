@@ -321,7 +321,7 @@ layers:
   - '='
   - ^
   - '"'
-  - Sft+0x87
+  - Sft+INT1
   - ':'
   - +
   - '`'
@@ -334,7 +334,7 @@ layers:
   - ;
   - '@'
   - '&'
-  - Sft+0x89
+  - Sft+INT3
   - Sft+LEFT GUI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -343,7 +343,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '0x89'
+  - INT3
 combos:
 - p: [36, 39]
   k: LANG1
