@@ -47,15 +47,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        change-lang1 {
-            bindings = <&kp LANG1>;
-            key-positions = <36 39>;
-            layers = <DEFAULT_LAYER JIS_LAYER>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     macros {
         to_layer_0: to_layer_0 {
