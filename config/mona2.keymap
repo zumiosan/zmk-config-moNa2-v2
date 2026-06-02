@@ -58,17 +58,17 @@
             label = "TO_LAYER_0";
         };
 
-        bt_sel_0_jis: bt_sel_0_jis {
+        bt_sel_0_us: bt_sel_0_jis {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&bt BT_SEL 0 &to JIS_LAYER>;
+            bindings = <&bt BT_SEL 0 &to 0>;
             label = "BT_SEL_0_JIS";
         };
 
-        bt_sel_1_jis: bt_sel_1_jis {
+        bt_sel_1_us: bt_sel_1_jis {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&bt BT_SEL 1 &to JIS_LAYER>;
+            bindings = <&bt BT_SEL 1 &to 0>;
             label = "BT_SEL_1_JIS";
         };
 
@@ -156,9 +156,9 @@
 
         default_layer_jis {
             bindings = <
-&kp Q           &kp W         &kp E             &kp R               &kp T                                                               &kp Y         &kp U  &kp I               &kp O    &kp P
-&kp A           &kp S         &kp D             &kp F               &kp G                                                &kp SEMICOLON  &kp H         &kp J  &lt SCROLL_LAYER K  &kp L    &kp MINUS
-&kp Z           &kp X         &kp C             &kp V               &kp B                  &mkp MB1                      &kp EQUAL      &kp N         &kp M  &kp COMMA           &kp DOT  &kp SLASH
+&kp Q           &kp W         &kp E             &kp R               &kp T                                                                   &kp Y         &kp U  &kp I               &kp O    &kp P
+&kp A           &kp S         &kp D             &kp F               &kp G                                                    &kp SEMICOLON  &kp H         &kp J  &lt SCROLL_LAYER K  &kp L    &kp MINUS
+&kp Z           &kp X         &kp C             &kp V               &kp B                      &mkp MB1                      &kp EQUAL      &kp N         &kp M  &kp COMMA           &kp DOT  &kp SLASH
 &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_CONTROL  &mt LEFT_GUI LANG2  &lt ARROW_JIS_LAYER SPACE  &lt SYMBOL_JIS_LAYER LANG1    &kp BACKSPACE  &lt 6 RETURN                                      &kp RG(RSHFT)
             >;
 
@@ -209,10 +209,10 @@
 
         bluetooth_fn {
             bindings = <
-&to DEFAULT_LAYER  &to JIS_LAYER  &trans  &trans  &trans                      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&kp F1             &kp F2         &kp F3  &kp F4  &kp F5             &trans   &bt_sel_0_jis  &bt_sel_1_jis  &bt_sel_2_jis  &bt_sel_3_jis  &bt_sel_4_jis
-&trans             &trans         &trans  &trans  &trans  &kp F11    &kp F12  &trans        &trans        &trans        &trans        &bt BT_CLR
-&bootloader        &trans         &trans  &trans  &trans  &trans     &trans   &trans                                                  &bt BT_CLR_ALL
+&to DEFAULT_LAYER  &to JIS_LAYER  &trans  &trans  &trans                       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4
+&kp F1             &kp F2         &kp F3  &kp F4  &kp F5              &trans   &bt_sel_0_us  &bt_sel_1_us  &bt_sel_2_jis  &bt_sel_3_jis  &bt_sel_4_jis
+&kp F6             &kp F7         &kp F8  &kp F9  &kp F10  &kp F11    &kp F12  &trans        &trans        &trans         &trans         &bt BT_CLR
+&bootloader        &trans         &trans  &trans  &trans   &trans     &trans   &trans                                                    &bt BT_CLR_ALL
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -229,10 +229,10 @@
 
         ARROW_JIS {
             bindings = <
-&kp ESCAPE        &trans        &kp LS(UP_ARROW)  &trans         &kp LS(N8)                                &kp LS(N9)        &kp LC(A)           &kp UP_ARROW      &kp LC(E)            &kp END
-&kp TAB           &kp LS(LEFT)  &kp LS(DOWN)      &kp LS(RIGHT)  &kp LS(RIGHT_BRACKET)      &mkp MB4       &kp LS(NON_US_HASH)  &kp LEFT_ARROW    &kp DOWN_ARROW    &kp RIGHT_ARROW      &kp HOME
-&trans            &trans        &trans            &trans         &kp RIGHT_BRACKET  &mkp MB2    &mkp MB5       &kp NON_US_HASH      &kp LC(LEFT_ARROW)  &kp LC(UP_ARROW)  &kp LC(RIGHT_ARROW)  &trans
-&kp LS(LEFT_GUI)  &trans        &trans            &trans         &trans             &trans      &kp LG(MINUS)  &kp LG(PLUS)                                                                      &trans
+&kp ESCAPE          &trans        &kp LS(UP_ARROW)  &trans         &kp LS(N8)                                        &kp LS(N9)           &kp LC(A)           &kp UP_ARROW      &kp LC(E)            &kp END
+&kp TAB             &kp LS(LEFT)  &kp LS(DOWN)      &kp LS(RIGHT)  &kp LS(RIGHT_BRACKET)              &mkp MB4       &kp LS(NON_US_HASH)  &kp LEFT_ARROW      &kp DOWN_ARROW    &kp RIGHT_ARROW      &kp HOME
+&kp LC(LA(DELETE))  &trans        &trans            &trans         &kp RIGHT_BRACKET      &mkp MB2    &mkp MB5       &kp NON_US_HASH      &kp LC(LEFT_ARROW)  &kp LC(UP_ARROW)  &kp LC(RIGHT_ARROW)  &trans
+&kp LS(LEFT_GUI)    &trans        &trans            &trans         &trans                 &trans      &kp LG(MINUS)  &kp LG(PLUS)                                                                    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
