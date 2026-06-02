@@ -81,7 +81,7 @@ layers:
   - LEFT ALT
   - LEFT CONTROL
   - {t: LANG2, h: LEFT GUI}
-  - {t: SPACE, h: ARROW}
+  - {t: SPACE, h: ARROW_JIS}
   - {t: LANG1, h: symbols_jis}
   - BACKSPACE
   - {t: RETURN, h: bluetooth_fn}
@@ -275,11 +275,11 @@ layers:
   - F4
   - F5
   - {t: ▽, type: trans}
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
+  - '&bt_sel_0_jis'
+  - '&bt_sel_1_jis'
+  - '&bt_sel_2_jis'
+  - '&bt_sel_3_jis'
+  - '&bt_sel_4_jis'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -344,3 +344,46 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - INT3
+  ARROW_JIS:
+  - ESCAPE
+  - {t: ▽, type: trans}
+  - Sft+UP ARROW
+  - {t: ▽, type: trans}
+  - Sft+8
+  - Sft+9
+  - Ctl+A
+  - UP ARROW
+  - Ctl+E
+  - END
+  - TAB
+  - Sft+LEFT
+  - Sft+DOWN
+  - Sft+RIGHT
+  - Sft+]
+  - '&mkp MB4'
+  - Sft+#
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - HOME
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ']'
+  - '&mkp MB2'
+  - '&mkp MB5'
+  - '#'
+  - Ctl+LEFT ARROW
+  - Ctl+UP ARROW
+  - Ctl+RIGHT ARROW
+  - {t: ▽, type: trans}
+  - Sft+LEFT GUI
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - Gui+-
+  - Gui++
+  - {t: ▽, type: trans}
