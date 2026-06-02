@@ -275,16 +275,16 @@ layers:
   - F4
   - F5
   - {t: ▽, type: trans}
-  - '&bt_sel_0_jis'
-  - '&bt_sel_1_jis'
+  - '&bt_sel_0_us'
+  - '&bt_sel_1_us'
   - '&bt_sel_2_jis'
   - '&bt_sel_3_jis'
   - '&bt_sel_4_jis'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
   - F11
   - F12
   - {t: ▽, type: trans}
@@ -366,7 +366,7 @@ layers:
   - DOWN ARROW
   - RIGHT ARROW
   - HOME
-  - {t: ▽, type: trans}
+  - Ctl+Alt+DELETE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
